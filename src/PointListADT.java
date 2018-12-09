@@ -21,4 +21,16 @@ public class PointListADT
 		//	enough memory for a list containing  'maxNumber' points.
 	}
 	
+	
+	/*
+	* Helper Method for the Constructor Methods.
+	* */
+	private void setup(int size)
+	{
+		//	pre-condition	:	size > 0. Method is declared private because only
+		//	the constructors will be allowed to call this method.
+		//	post-condition	:	This method will create an empty point list of a
+		//	specific size based on the value of size received from the constructor.
+	}
+	
 }
