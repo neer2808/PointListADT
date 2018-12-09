@@ -57,4 +57,16 @@ public class PointListADT
 		//	post-condition	:	This method removes all the points in a list.
 	}
 	
+	
+	/*
+	* Member method for the Clas.. This method will check whether the list is empty.
+	* */
+	boolean isEmpty()
+	{
+		//	pre-condition	:	NONE.
+		//	post-condition	:	This method returns TRUE if the list is empty, otherwise
+		//	the method will return false.
+		return false;
+	}
+	
 }
