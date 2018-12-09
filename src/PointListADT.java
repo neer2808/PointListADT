@@ -7,7 +7,7 @@ public class PointListADT
 	* */
 	PointListADT()
 	{
-		//	pre-condition	:	none
+		//	pre-condition	:	NONE.
 		//	post-condition	:	This default constructor will call the 'setup()'
 		//	method(which creates an empty list). It allocates enough memory for
 		//	a list containing 'DEF_	MAX_LIST_SIZE' points.(it is a constant value)
@@ -18,7 +18,7 @@ public class PointListADT
 	* */
 	PointListADT(int maxNumber)
 	{
-		//	pre-condition	:	maxNumber > 0
+		//	pre-condition	:	maxNumber > 0.
 		//	post-condition	:	This constructor creates an empty list. It allocates
 		//	enough memory for a list containing  'maxNumber' points.
 	}
@@ -46,6 +46,15 @@ public class PointListADT
 		//	post-condition	:	Adds an element 'newPoint' to the end of the list.
 		//	If the list is empty, then adds 'newPoint' as the first (and only) point
 		//	in the list. Then, it moves the cursor to newPoint.
+	}
+	
+	/*
+	* Member Method for the Class. This method will remove all the points in a list.
+	* */
+	void clear()
+	{
+		//	pre-condition	:	NONE.
+		//	post-condition	:	This method removes all the points in a list.
 	}
 	
 }
