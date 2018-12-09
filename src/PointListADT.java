@@ -65,7 +65,18 @@ public class PointListADT
 	{
 		//	pre-condition	:	NONE.
 		//	post-condition	:	This method returns TRUE if the list is empty, otherwise
-		//	the method will return false.
+		//	the method will return FALSE.
+		return false;
+	}
+	
+	/*
+	* Member Method for the Class. This method will check whether the list is full.
+	* */
+	boolean isFull()
+	{
+		//	pre-condition	:	NONE.
+		//	post-condition	:	This method will return TRUE if the list is full, other-
+		//	wise this method will return FALSE.
 		return false;
 	}
 	
