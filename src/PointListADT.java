@@ -143,4 +143,14 @@ public class PointListADT
 		return point;
 	}
 	
+	/*
+	* Member Method for the Class. This method will output the points in a list.
+	* */
+	void showStructure()
+	{
+		//	pre-condition	:	NONE.
+		//	post-condition	:	This method will output the points in a list. If the list is empty,
+		//	the method will print "Empty List". [This operation is meant for testing purposes only]
+	}
+	
 }
