@@ -1,7 +1,7 @@
 public class PointListADT
 {
 	/*
-	* Constructor Method for the class.
+	* Default Constructor Method for the class.
 	* */
 	PointListADT()
 	{
@@ -10,4 +10,15 @@ public class PointListADT
 		//	method(which creates an empty list). It allocates enough memory for
 		//	a list containing 'DEF_	MAX_LIST_SIZE' points.(it is a constant value)
 	}
+	
+	/*
+	* Parameterized Constructor Method for the class.
+	* */
+	PointListADT(int maxNumber)
+	{
+		//	pre-condition	:	maxNumber > 0
+		//	post-condition	:	This constructor creates an empty list. It allocates
+		//	enough memory for a list containing  'maxNumber' points.
+	}
+	
 }
