@@ -106,4 +106,16 @@ public class PointListADT
 		return false;
 	}
 	
+	/*
+	* Member Method for the Class. This method will move the cursor to the next point in the list.
+	* */
+	boolean goToNext()
+	{
+		//	pre-condition	:	The list must not be empty.
+		//	post-condition	:	This method will check if the cursor is not at the end of the list,
+		//	this method will move the cursor to the next point in the list and returns TRUE, other
+		//	wise, this method will return FALSE.
+		return false;
+	}
+	
 }
