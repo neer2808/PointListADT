@@ -59,7 +59,7 @@ public class PointListADT
 	
 	
 	/*
-	* Member method for the Clas.. This method will check whether the list is empty.
+	* Member method for the Class. This method will check whether the list is empty.
 	* */
 	boolean isEmpty()
 	{
