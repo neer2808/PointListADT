@@ -1,3 +1,5 @@
+import java.awt.*;
+
 public class PointListADT
 {
 	/*
@@ -31,6 +33,19 @@ public class PointListADT
 		//	the constructors will be allowed to call this method.
 		//	post-condition	:	This method will create an empty point list of a
 		//	specific size based on the value of size received from the constructor.
+	}
+	
+	
+	/*
+	* Member Method for the Class. This method appends data elements to the structure.
+	* */
+	void append(Point point)
+	{
+		//	pre-condition	:	This method will append an element only if the list
+		//	is not full.
+		//	post-condition	:	Adds an element 'newPoint' to the end of the list.
+		//	If the list is empty, then adds 'newPoint' as the first (and only) point
+		//	in the list. Then, it moves the cursor to newPoint.
 	}
 	
 }
