@@ -129,5 +129,18 @@ public class PointListADT
 		//	and	returns TRUE, otherwise, this method will return FALSE.
 		return false;
 	}
+
+	
+	/*
+	* Member Method for the Class. This method will return a copy of the point marked by the
+	* cursor.
+	* */
+	Point getCursor()
+	{
+		//	pre-condition	:	The list must not be empty.
+		//	post-condition	:	This method will return a copy of the point marked by the cursor.
+		Point point = new Point();
+		return point;
+	}
 	
 }
