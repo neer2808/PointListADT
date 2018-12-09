@@ -87,10 +87,22 @@ public class PointListADT
 	boolean goToBeginning()
 	{
 		//	pre-condition	:	NONE.
-		//	post-condition	:	This method will check whether the list is empty or not,
+		//	post-condition	:	This method will check if the list is empty,
 		//	if the list is not empty, then it will move the cursor to the point at the
 		//	beginning of the list and return TRUE, otherwise, this method will return
 		//	FALSE.
+		return false;
+	}
+	
+	/*
+	* Member method for the Class. This method will move the cursor to the end of the list.
+	* */
+	boolean goToEnd()
+	{
+		//	pre-condition	:	NONE.
+		//	post-condition	:	This method will check if the list is empty,
+		//	if the list is not empty, then it will move the cursor to the point at the
+		//	end of the list and return TRUE, otherwise, this method will return FALSE.
 		return false;
 	}
 	
